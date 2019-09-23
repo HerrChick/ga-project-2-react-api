@@ -1,4 +1,7 @@
 # General Assembly Project 2 - D&D Spellbook
+
+[See the app in action!](https://herrchick.github.io/ga-project-2-react-api/#/)
+
 ##Introduction
 For my second project at general assembly, we were asked to build a React.js app using a 3rd party API, pair coded in 48 hours.
 
