@@ -21,14 +21,14 @@ class SpellShow extends React.Component {
   componentDidMount() {
     const spells = JSON.parse(localStorage.getItem('spells'))
     const spell = spells.find(spell => spell.slug === this.props.match.params.slug)
-    console.log(this.props.match.params.slug)
+
     this.setState({ spell }, () => {
       this.getImage()
     })
   }
 
   getImage() {
-    console.log(process.env.GOOGLE_API_KEY)
+
     const client = new GoogleImages('004991023930242296851:9-esw8ey0xs', process.env.GOOGLE_API_KEY)
     client.search(`illustration ${this.state.spell.name}`)
       .then(images => this.setState({ img: images[0].url }))

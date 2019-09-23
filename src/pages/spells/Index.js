@@ -104,7 +104,7 @@ class SpellsIndex extends React.Component {
             </div>
           </div>
         <div className="columns">
-          <div className="column is-half-tablet is-one-third-desktop">
+          <div className="column is-one-third-tablet is-one-third-desktop">
             <div className="field">
               <div className="select is-fullwidth">
                 <select name="level" onChange={this.storeFilter}>
@@ -124,7 +124,7 @@ class SpellsIndex extends React.Component {
             </div>
           </div>
 
-          <div className="column is-half-tablet is-one-third-desktop">
+          <div className="column is-one-third-tablet is-one-third-desktop">
             <div className="field">
               <div className="select is-fullwidth">
                 <select name="class" onChange={this.storeFilter}>
@@ -142,7 +142,7 @@ class SpellsIndex extends React.Component {
             </div>
           </div>
 
-          <div className="column is-half-tablet is-one-third-desktop">
+          <div className="column is-one-third-tablet is-one-third-desktop">
             <div className="field">
               <div className="select is-fullwidth">
                 <select name="school" onChange={this.storeFilter}>
