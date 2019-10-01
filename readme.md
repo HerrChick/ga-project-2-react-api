@@ -2,7 +2,7 @@
 
 [See the app in action!](https://herrchick.github.io/ga-project-2-react-api/#/)
 
-##Introduction
+## Introduction
 For my second project at general assembly, we were asked to build a React.js app using a 3rd party API, pair coded in 48 hours.
 
 We had decided on writing an app relevant to our mutual interests, and one which may prove useful to us in the future, a D&D spellbook.
